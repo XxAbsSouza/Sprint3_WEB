@@ -1,0 +1,17 @@
+:root{
+    --color-primary: #fb0002;
+    --color-segundary: #160f29;
+    --color-light: #fff;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.navbar {
+    height: 6rem;
+    padding: 0 3rem;
+    background-image: linear-gradient(#160f29ee, rgba(0, 0, 0, 0.693));
+}
+
+
