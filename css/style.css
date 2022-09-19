@@ -2,6 +2,7 @@
     --color-primary: #fb0002;
     --color-segundary: #160f29;
     --color-light: #fff;
+    --color-light-2: #D4D4D8;
     --color-black: #000;
     --font-tittle: 'Rubik Mono One', sans-serif;
     --font-p: 'Ubuntu Mono', monospace;
@@ -9,6 +10,23 @@
 
 html{
     font-size: 62.5%;
+}
+
+.btn-outline-info {
+    --bs-btn-color: var(--color-segundary);
+    --bs-btn-border-color: var(--color-segundary);
+    --bs-btn-hover-color: var(--color-light-2);
+    --bs-btn-hover-bg: var(--color-segundary);
+    --bs-btn-hover-border-color: var(--color-segundary);
+    --bs-btn-focus-shadow-rgb: 13, 202, 240;
+    --bs-btn-active-color: var(--color-light-2);
+    --bs-btn-active-bg: var(--color-segundary);
+    --bs-btn-active-border-color: var(--color-segundary);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--color-segundary);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--color-segundary);
+    --bs-gradient: none;
 }
 
 .navbar {
@@ -39,11 +57,11 @@ html{
 
 .navbar .dropdown-menu {
     color: var(--color-light) !important;
-    background-color:rgba(0, 0, 0, 0.295);
+    background-color:#160f294b;
 }
 
 .dropdown-item:hover{
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: #160f29ad;
 }
 
 .hero{
@@ -58,12 +76,33 @@ html{
 h1{
     font-family: var(--font-tittle);
     font-size: 5.5rem;
+    margin: 9rem 0;
 }
 
 p{
     font-family: var(--font-p);
 
 }
+
+.btn{
+    font-family: var(--font-p);
+    font-size: 1rem;
+    padding: 0.5rem 4rem;
+    border: none;
+    border-radius: 5rem;
+    color: var(--color-light-2);
+}
+
+.btn:hover{
+    color: var(--color-light-2);
+    background: var(--color-segundary);
+    font-weight: bolder;
+}
+
+
+
+
+
 
 .bg-container-1{
     background-image: linear-gradient(#700202d6, #fb0000a5), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
