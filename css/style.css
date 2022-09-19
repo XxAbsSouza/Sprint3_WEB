@@ -2,6 +2,9 @@
     --color-primary: #fb0002;
     --color-segundary: #160f29;
     --color-light: #fff;
+    --color-black: #000;
+    --font-tittle: 'Rubik Mono One', sans-serif;
+    --font-p: 'Ubuntu Mono', monospace;
 }
 
 html{
@@ -9,7 +12,61 @@ html{
 }
 
 .navbar {
+    text-transform: capitalize;
     font-size: 1.2rem;
-    background-image: linear-gradient(#160f29ee, rgba(0, 0, 0, 0.693));
+    width: 100%;
+    font-family: var(--font-p);
 }
+
+.navbar-nav li{
+    margin: 0 1rem;
+}
+
+.nav-link:hover{
+    color: var(--color-light);
+}
+
+.nav-item a{
+    color: var(--color-light)!important;
+}
+
+@media(max-width: 768px){
+    .nav-link{
+        text-align: center;
+    }
+}
+
+.navbar .dropdown-menu {
+    color: var(--color-light) !important;
+    background-color:rgba(0, 0, 0, 0.295);
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: var(--font-tittle);
+    font-size: 5.5rem;
+}
+
+p{
+    font-family: var(--font-p);
+
+}
+
+.bg-container-1{
+    background-image: linear-gradient(#700202d6, #fb0000a5), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
+}
+
+
 
