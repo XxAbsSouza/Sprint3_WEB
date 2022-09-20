@@ -8,9 +8,14 @@
     --font-p: 'Ubuntu Mono', monospace;
 }
 
+::-webkit-scrollbar {
+    display: none;
+    }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+
 }
 
 .btn-outline-info {
@@ -153,7 +158,11 @@ p {
     color: var(--color-light);
     text-align: justify;
     font-size: 15px;
+    margin-left: 1rem;
+    
 }
+
+
 
 .bg-container-1 {
     background-image: linear-gradient(#700202d6, #fb0000a5), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
