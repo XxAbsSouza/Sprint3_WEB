@@ -100,9 +100,18 @@ p{
 }
 
 
+.sobre{
+    width: 100%;
+    background-color: var(--color-black);
 
+}
 
-
+.sobre-txt{
+width: 25%;
+color: var(--color-light);
+text-align: justify;
+font-size: 15px;
+}
 
 .bg-container-1{
     background-image: linear-gradient(#700202d6, #fb0000a5), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
