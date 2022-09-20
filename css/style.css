@@ -26,22 +26,6 @@ body{
     padding: 0;
 }
 
-.container-line{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    overflow: hidden;
-}
-
-svg{
-    display: inline-block;
-    height: 100%;
-}
-
-
 .btn-outline-info {
     --bs-btn-color: var(--color-segundary);
     --bs-btn-border-color: var(--color-segundary);
@@ -233,8 +217,6 @@ p {
     margin-left: 1rem;
     
 }
-
-
 
 .bg-container-1 {
     background-image: linear-gradient(#310000ad, #fb00008a, #fb0000b7, #5b01017a), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
