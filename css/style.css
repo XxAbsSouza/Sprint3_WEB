@@ -8,9 +8,14 @@
     --font-p: 'Ubuntu Mono', monospace;
 }
 
+::-webkit-scrollbar {
+    display: none;
+    }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+
 }
 
 body{
@@ -205,6 +210,32 @@ p {
         transform: translateY(-0.5rem);
     }
 }
+
+
+
+.hero-icon:hover {
+    color: var(--color-light);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.sobre {
+    width: 100%;
+    background-color: var(--color-black);
+
+}
+
+.sobre-txt {
+    width: 25%;
+    color: var(--color-light);
+    text-align: justify;
+    font-size: 15px;
+    margin-left: 1rem;
+    
+}
+
+
+
 .bg-container-1 {
     background-image: linear-gradient(#310000ad, #fb00008a, #fb0000b7, #5b01017a), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
 }
