@@ -34,7 +34,8 @@ html{
     font-size: 1.2rem;
     width: 100%;
     font-family: var(--font-p);
-    background-color: var( --color-black);
+    background-color: #160f2944;
+    backdrop-filter: blur(2rem);
 }
 
 .navbar-nav li{
