@@ -80,14 +80,19 @@ h1{
     margin: 9rem 0;
 }
 
+.hero-text{
+    display: block;
+}
+
 p{
     font-family: var(--font-p);
+    font-size: 2rem;
 
 }
 
 .btn{
     font-family: var(--font-p);
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.5rem 4rem;
     border: none;
     border-radius: 5rem;
