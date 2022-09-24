@@ -10,7 +10,7 @@
 
 ::-webkit-scrollbar {
     display: none;
-    }
+}
 
 html {
     font-size: 62.5%;
@@ -18,11 +18,11 @@ html {
 
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.padding-zero{
+.padding-zero {
     padding: 0;
 }
 
@@ -137,20 +137,6 @@ p {
     font-weight: bolder;
 }
 
-.sobre {
-    width: 100%;
-    background-color: var(--color-black);
-    
-}
-
-.sobre-txt {
-    width: 25%;
-    color: var(--color-light);
-    text-align: justify;
-    font-size: 15px;
-}
-
-
 
 /* Configurações gerais */
 
@@ -158,11 +144,12 @@ p {
     .nav-link {
         text-align: center;
     }
+
     .hero-info {
         position: relative;
         top: 7rem !important;
     }
-    
+
     .hero-icon {
         position: relative;
         top: 6rem !important;
@@ -174,23 +161,32 @@ p {
         position: relative;
         top: 2rem !important;
     }
-    
+
     .hero-icon {
         position: relative;
         top: 2rem !important;
     }
 }
-@keyframes bounce{
-    0%, 25%, 55%, 75%, 100%{
+
+@keyframes bounce {
+
+    0%,
+    25%,
+    55%,
+    75%,
+    100% {
         transform: translateY(0);
     }
-    45%{
+
+    45% {
         transform: translateY(-1.9rem);
     }
-    65%{
+
+    65% {
         transform: translateY(-1rem);
     }
-    85%{
+
+    85% {
         transform: translateY(-0.5rem);
     }
 }
@@ -210,12 +206,12 @@ p {
 }
 
 .sobre-txt {
-    width: 25%;
+    width: 100%;
     color: var(--color-light);
-    text-align: justify;
+    text-align: center;
     font-size: 15px;
-    margin-left: 1rem;
-    
+    margin: 1rem;
+
 }
 
 .bg-container-1 {
