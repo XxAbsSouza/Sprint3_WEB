@@ -39,7 +39,7 @@
                             Galeria
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#armas">Fotos</a></li>
+                            <li><a class="dropdown-item" href="#fotos">Fotos</a></li>
                             <li><a class="dropdown-item" href="#videos">Vídeos</a></li>
                         </ul>
                     </li>
@@ -54,10 +54,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#grupo">Quem está por trás</a>
+                        <a class="nav-link" href="#robocup">Robocup e Next</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#robocup">Robocup e Next</a>
+                        <a class="nav-link" href="#grupo">Quem está por trás</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contato">Contato</a>
@@ -86,14 +86,20 @@
                 <p class="sobre-txt">
                     Sobre:
 
-                    desde que o professor Belizario nos informou a respeito do projeto do robo, foram aparecendo algumas ideias sobre o mesmo, que até então nem nome tinha, os meses foram passando, fomos projetando, construindo, evoluindo, arrumando os erros que apareceram no caminho até que finalizamos "o taldo destroça" agora totalmente funcional, sem bugs, e com uma personalidade própria, com uma feição amigavel, a não ser pela sua intimidadora arma, uma bola cheia de agulhas preparada para estourar os balões adversarios, ele funciona basicamente com três motores, dois para movimentação e um para a arma, controlados pro um arduino. Abaixo você pode encontrar um video dele funcionando 
+                    desde que o professor Belizario nos informou a respeito do projeto do robo, foram aparecendo algumas
+                    ideias sobre o mesmo, que até então nem nome tinha, os meses foram passando, fomos projetando,
+                    construindo, evoluindo, arrumando os erros que apareceram no caminho até que finalizamos "o taldo
+                    destroça" agora totalmente funcional, sem bugs, e com uma personalidade própria, com uma feição
+                    amigavel, a não ser pela sua intimidadora arma, uma bola cheia de agulhas preparada para estourar os
+                    balões adversarios, ele funciona basicamente com três motores, dois para movimentação e um para a
+                    arma, controlados pro um arduino. Abaixo você pode encontrar um video dele funcionando
                 </p>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://youtu.be/fECD3tNE5dM" allowfullscreen></iframe>
-                  </div>
+                </div>
             </div>
         </div>
-        <div class="gallery row" id="armas">
+        <div class="gallery row" id="fotos">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -128,7 +134,50 @@
                     </button>
                 </div>
 
+            </div>
+            <div class="specs" id="especificacoes">
 
+                <div class="harware-txt" id="hardware">
+                    <h2>Hardware:</h2>
+
+                    Nosso Robo foi construido em uma base de mdf de 25cmx25cm, paredes triangulares com medidas de
+                    10cm
+                    x
+                    23cm x
+                    25cm. Ele é movido por dois motores dc de 5v/150rpm cada com caixa de redução embutida, o
+                    "cerebro"
+                    do
+                    taldo
+                    destroça é um arduino uno acoplado a ele um shild de motores com capacidade de controlar ate 4
+                    motores,
+                    o
+                    robô é controlado pelo um smartphone via bluetooth atráves de um módulo bluetooth hc 06. Para
+                    alimentar todo este monstrinho são necessarias 6 pilhas AA de 1.5v cada.
+                </div>
+                <div class="arma-txt" id="armas">
+                    <h2>Arma:</h2>
+                    Sua arma é composta por:
+                    um
+                    motor
+                    dc 5v/330rpm o qual possui um palito com uma bola cheia de agulhas na ponta pronto para estourar
+                    os
+                    balões
+                    dos adversários.
+                </div>
+            </div>
+
+            <div class="robocup d-flex ">
+                <img class="robocup-img" src="./images/robocup.jpg" alt="robocup-img">
+                <div class="robocup-txt">
+                    <p>
+                        <h2>Robocup:</h2>
+                        A Robocup é a competição mais antiga da FIAP. Alunos dos 1°s anos de Sistemas de Informação
+                        constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o
+                        adversário carrega. Para isso, todas as máquinas possuem armas em seu corpo. Mas a competição
+                        também exige o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher
+                        sua arma, só assim é considerado o vencedor. <h2>Next:</h2>O NEXT é o Festival de Tecnologia e Inovação que reuniu, no ano de 2017, mais de dois mil jovens talentos da FIAP apresentando suas melhores criações: drones, robôs, conteúdos para VR devices, aplicativos mobiles e muito mais. O evento citado acima foi realizado em 21/10/2017 na Casa das Caldeiras.
+                    </p>
+                </div>
             </div>
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

@@ -209,11 +209,46 @@ p {
     width: 100%;
     color: var(--color-light);
     text-align: center;
-    font-size: 15px;
-    margin: 1rem;
+    font-size: 18px;
+    padding: 1rem;
 
 }
 
 .bg-container-1 {
     background-image: linear-gradient(#310000ad, #fb00008a, #fb0000b7, #5b01017a), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
+}
+
+.specs{
+    width: 100%;
+    background-color: var(--color-black);
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.harware-txt{
+width: 100%;
+color: var(--color-light);
+margin: 1rem;
+}
+
+.arma-txt{
+    width: 100%;
+    color: var(--color-light);
+    margin-left: 1rem;
+}
+
+.robocup{
+    width: 100%;
+    margin-top: 1rem;
+    background-color: var(--color-black);
+}
+
+.robocup-img{
+    width: 50%;
+}
+
+.robocup-txt{
+    margin: 1rem;
+    font-size: 16px;
+    color: var(--color-light);
 }
