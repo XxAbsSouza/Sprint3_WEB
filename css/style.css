@@ -51,9 +51,7 @@ body {
     background-color: #160f2944;
     backdrop-filter: blur(2rem);
 }
-.menu{
 
-}
 .navbar-nav li {
     margin: 0 1rem;
 }
@@ -267,5 +265,9 @@ margin: 1rem;
     width: 100%;
     padding: 1rem;
     height: 60%;
-    border: solid var(--color-black) 1px;
+    
+}
+
+.user{
+    
 }

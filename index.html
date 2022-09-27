@@ -62,7 +62,7 @@
                             <a class="nav-link" href="#grupo">Quem está por trás</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contato">Contato</a>
+                            <a class="nav-link" href="#usuario">Usuário</a>
                         </li>
                 </div>
             </div>
@@ -196,34 +196,53 @@
         </div>
         <h2 class="text-center">Equipe Destroça</h2>
         <div class="grupo d-flex flex-row text-center" id="grupo">
-            <figure><img class="img-gp" src="./images/equipe/yann.jpg" alt="">
+
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/yann.jpg" alt="">
                 <figcaption>
-                    <h2 class="caption-t">Yann</h2><p>Projeto do robô, Web e Sistemas de Informação</p>
+                    <h2>Yann</h2>
                 </figcaption>
             </figure>
-            <figure><img class="img-gp" src="./images/equipe/ana.jpeg" alt="">
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/ana.jpeg" alt="">
                 <figcaption>
-                    <h2 class="caption-t">Ana</h2><p>Web, Sistemas de InformaçãoJava e Cálculo</p>
+                    <h2>Ana</h2>
                 </figcaption>
             </figure>
-            <figure><img class="img-gp" src="./images/equipe/daniel.jpeg" alt="">
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/daniel.jpeg" alt="">
                 <figcaption>
-                    <h2 class="caption-t">Daniel</h2><p>Projeto do robô,Arquitetura e organização de computadors, Sistemas de Informação e java</p>
+                    <h2>Daniel</h2>
                 </figcaption>
             </figure>
-            <figure><img class="img-gp" src="./images/equipe/davi.jpeg" alt="">
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/davi.jpeg" alt="">
                 <figcaption>
-                    <h2 class="caption-t">Davi</h2><p>Storytellinge e Sistemas de Informação</p>
+                    <h2>Davi</h2>
                 </figcaption>
             </figure>
-            <figure><img class="img-gp" src="./images/equipe/luis.jpeg" alt="">
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/luis.jpeg" alt="">
                 <figcaption>
-                    <h2 class="caption-t">Luis</h2><P>java e Sistemas de Informação</P>
+                    <h2>Luis</h2>
                 </figcaption>
             </figure>
 
         </div>
 
+        <div class="user d-flex align-items-center">
+        <form id="dados" name="dados" method="post" action="">
+
+            <div class="row">
+                
+                <div class="col-md-4 my-3">
+                    <label for="usuario" class="form-label">Usuário</label>
+                    <input type="text" id="usuario" name="usuario"
+                    class="form-control" placeholder="Ex: User1234"
+                    minlength="8" maxlength="15" required>
+                </div>
+    </form>
+</div>
     </div>
     <script src="./js/app.js"></script>
 </body>
