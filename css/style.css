@@ -317,7 +317,7 @@ h3 {
 }
 
 .line {
-    width: 100rem;
+    width: 30rem;
     height: 0.2rem;
     background-color: var(--color-light-2);
     margin: 10px auto;
