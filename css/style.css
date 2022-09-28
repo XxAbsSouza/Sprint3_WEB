@@ -212,13 +212,13 @@ h3 {
 
 .card{
     color: var(--color-light);
-    max-width: 70rem;
+    max-width: 71rem;
     background-color: var(--color-black);
 
 }
 
 .c1 {
-    max-height: 70rem;
+    max-height: 68rem;
 }
 
 .c2 {
