@@ -192,10 +192,9 @@ h6 {
     font-size: 3.5rem;
 }
 
-
-
+/*----------------------Especificações----------------------*/
 .specs {
-    width: 100%;
+    
     background-color: var(--color-black);
     margin-top: 1rem;
     font-size: 16px;
@@ -303,4 +302,7 @@ h6 {
 
 .bg-container-1 {
     background-image: linear-gradient(#310000ad, #fb00008a, #fb0000b7, #5b01017a), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
+}
+.bg-container-2 {
+    background-image: linear-gradient(#160f29, #0000), url(../images/laura-ockel-UzNVV_u6qkc-unsplash.jpg);
 }
