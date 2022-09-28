@@ -213,7 +213,7 @@ h3 {
 .card{
     color: var(--color-light);
     max-width: 71rem;
-    background-color: var(--color-black);
+    background-color: var(--color-segundary);
 
 }
 
