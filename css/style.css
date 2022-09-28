@@ -194,7 +194,7 @@ h6 {
 
 /*----------------------Especificações----------------------*/
 .specs {
-    min-height: 120vh;
+    min-height: 100vh;
     font-size: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -225,18 +225,8 @@ h3 {
     max-height: 50rem;
 }
 
-/*
-.harware-txt {
-    width: 100%;
-    color: var(--color-light);
-    margin: 1rem;
-}
 
-.arma-txt {
-    width: 100%;
-    color: var(--color-light);
-    margin-left: 1rem;
-} */
+/*----------------Robocup----------------*/
 
 .robocup {
     width: 100%;
