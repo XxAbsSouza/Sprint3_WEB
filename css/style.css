@@ -217,13 +217,10 @@ h3 {
 
 }
 
-.c1 {
-    max-height: 68rem;
+.c {
+    min-height: 60rem;
 }
 
-.c2 {
-    max-height: 50rem;
-}
 
 
 /*----------------Robocup----------------*/
