@@ -87,20 +87,20 @@
                     O projeto foi <span class="sobre-p">concebido pela FIAP</span> e consiste no <span
                         class="sobre-p">desenvolvimento e
                         documentação de um robô</span> para competir com outros
-                    robôs
-                </p>
-                <p class="py-5 pe-5 mb-5 text-end bg2">A fim de integrar conhecimentos e técnicas de todas as
+                    robôs, a fim de integrar conhecimentos e técnicas de todas as
                     disciplinas
                     dos alunos do
                     primeiro ano do curso de Sistemas
-                    de Informação</p>
-                <p class="py-5 ps-5 mb-5 text-start bg">Nosso robô,<span class="sobre-p"> O Taldo Destroça</span>, é
-                    <span class="sobre-p">muito mais</span> que um robô feito para briga!
+                    de Informação
                 </p>
-                <p class="py-5 pe-5 mb-5 text-end bg2">Ao vê-lo nas arenas poderemos ver que por trás
+                <p class="py-5 pe-5 mb-5 text-end bg2">Nosso robô,<span class="sobre-p"> O Taldo Destroça</span>, é
+                    <span class="sobre-p">muito mais</span> que um robô feito para briga!<br>Ao vê-lo nas arenas
+                    poderemos ver que por trás
                     do resultado final há <span class="sobre-p">meses de estudo</span> em <span class="sobre-p">elétrica
                         básica e
-                        digital</span> tal como em <span class="sobre-p">programação aplicada</span></p>
+                        digital</span> tal como em <span class="sobre-p">programação aplicada</span>
+                </p>
+                </p>
                 <h6 class="text-center py-3">Tudo isso inserido dentro da tendência mundial de robótica
                     educacional!
                 </h6>
@@ -112,10 +112,10 @@
                 </div>
             </div>
         </section>
-
         <section class="gallery row  align-items-center justify-content-center" id="galeria">
+            <div class="line"></div>
             <h2 class="text-center mt-5 h2 col-12">Galeria</h2>
-            <div class="galeria w-50 h-50 col-12 flex-column">
+            <div class="galeria w-50 h-50 col-12 flex-column mb-5">
                 <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -124,6 +124,10 @@
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="100">
@@ -132,6 +136,14 @@
                         </div>
                         <div class="carousel-item" data-bs-interval="100">
                             <img src="./images/fotofrente.jpeg" class="d-block w-100" alt="Robo frontal">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="100">
+                            <img src="./images/fototras.jpeg" class="d-block w-100" alt="Robo traseira">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="100">
+                            <img src="./images/fotolado1.jpeg" class="d-block w-100" alt="Robo traseira">
 
                         </div>
                         <div class="carousel-item" data-bs-interval="100">
@@ -155,35 +167,51 @@
 
         <section class="row">
             <div class="specs bg-container-2" id="especificacoes">
-
-                <div class="harware-txt" id="hardware">
-                    <h2>Hardware:</h2>
-
-                    Nosso Robo foi construido em uma base de mdf de 25cmx25cm, paredes triangulares com medidas de
-                    10cm
-                    x
-                    23cm x
-                    25cm. Ele é movido por dois motores dc de 5v/150rpm cada com caixa de redução embutida, o
-                    "cerebro"
-                    do
-                    taldo
-                    destroça é um arduino uno acoplado a ele um shild de motores com capacidade de controlar ate 4
-                    motores,
-                    o
-                    robô é controlado pelo um smartphone via bluetooth atráves de um módulo bluetooth hc 06. Para
-                    alimentar todo este monstrinho são necessarias 6 pilhas AA de 1.5v cada.
+                <div class="line mt-5"></div>
+                <h2 class="h2 text-center m-5 p-5">Especificações</h2>
+                <p class="text-center text-light">O robô é composto por três principais partes:</p>
+                <div class="cards d-flex align-items-center justify-content-center mb-5">
+                    <div class="card mb-3 flex-column c1 m-5 text-center">
+                        <div class="card-body">
+                            <h3 class="card-title text-center m-4">Estrutura e HArdware</h3>
+                            <p class="card-text">Nosso Robo foi construido em uma <span class="sobre-p">base de mdf</span> de <span class="sobre-p">25cmx25cm</span>, <br> com <span class="sobre-p">paredes
+                                triangulares</span> medindo
+                                <span class="sobre-p">10cm
+                                x
+                                23cm x
+                                25cm.</span> Ele é movido por <span class="sobre-p">dois motores</span> de <span class="sobre-p">5v/150rpm</span> cada, com caixa de redução embutida.
+                                <br> O
+                                <span class="sobre-p">"cerebro"</span>
+                                do
+                                taldo
+                                destroça é um <span class="sobre-p">arduino uno</span>, acoplado a ele um <span class="sobre-p">shild de motores</span> com capacidade de controlar
+                                ate 4
+                                motores.
+                                <br> O
+                                robô é <span class="sobre-p">controlado por um smartphone</span> via bluetooth, atráves de um <span class="sobre-p">módulo bluetooth hc 06.</span>
+                                <br>Para
+                                alimentar todo este monstrinho necessita de <span class="sobre-p">6 pilhas AA</span> de 1.5v cada.</p>
+                            <p class="card-text ">
+                                <img src="images/hardware.jpg" class="card-img-bottom" alt="processador">
+                        </div>
+                    </div>
+                    <div class="card flex-column c2">
+                        <div class="card-body">
+                            <h3 class="card-title text-center m-4">Arma</h3>
+                            <p class="card-text text-center">A arma é composta por:
+                                <br> Um
+                                <span class="sobre-p">motor
+                                dc 5v/330rpm</span> o qual possui um palito com uma bola cheia de <span class="sobre-p">agulhas</span> na ponta pronto para
+                                <span class="sobre-p">estourar</span>
+                                os
+                                balões
+                                dos adversários!</p>
+                            <p class="card-text">
+                                <img src="images/municao.jpg" class="card-img-bottom" alt="Munição">
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="arma-txt" id="armas">
-                    <h2>Arma:</h2>
-                    Sua arma é composta por:
-                    um
-                    motor
-                    dc 5v/330rpm o qual possui um palito com uma bola cheia de agulhas na ponta pronto para estourar
-                    os
-                    balões
-                    dos adversários.
-                </div>
-            </div>
         </section>
 
 
@@ -203,61 +231,62 @@
                 </p>
             </div>
         </div>
+        <h2 class="text-center">Equipe Destroça</h2>
+        <div class="grupo d-flex flex-row text-center" id="grupo">
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-            crossorigin="anonymous"></script>
-    </div>
-    <h2 class="text-center">Equipe Destroça</h2>
-    <div class="grupo d-flex flex-row text-center" id="grupo">
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/yann.jpg" alt="">
+                <figcaption>
+                    <h2>Yann</h2>
+                </figcaption>
+            </figure>
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/ana.jpeg" alt="">
+                <figcaption>
+                    <h2>Ana</h2>
+                </figcaption>
+            </figure>
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/daniel.jpeg" alt="">
+                <figcaption>
+                    <h2>Daniel</h2>
+                </figcaption>
+            </figure>
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/davi.jpeg" alt="">
+                <figcaption>
+                    <h2>Davi</h2>
+                </figcaption>
+            </figure>
+            <figure class="caption">
+                <img class="img-gp" src="./images/equipe/luis.jpeg" alt="">
+                <figcaption>
+                    <h2>Luis</h2>
+                </figcaption>
+            </figure>
 
-        <figure class="caption">
-            <img class="img-gp" src="./images/equipe/yann.jpg" alt="">
-            <figcaption>
-                <h2>Yann</h2>
-            </figcaption>
-        </figure>
-        <figure class="caption">
-            <img class="img-gp" src="./images/equipe/ana.jpeg" alt="">
-            <figcaption>
-                <h2>Ana</h2>
-            </figcaption>
-        </figure>
-        <figure class="caption">
-            <img class="img-gp" src="./images/equipe/daniel.jpeg" alt="">
-            <figcaption>
-                <h2>Daniel</h2>
-            </figcaption>
-        </figure>
-        <figure class="caption">
-            <img class="img-gp" src="./images/equipe/davi.jpeg" alt="">
-            <figcaption>
-                <h2>Davi</h2>
-            </figcaption>
-        </figure>
-        <figure class="caption">
-            <img class="img-gp" src="./images/equipe/luis.jpeg" alt="">
-            <figcaption>
-                <h2>Luis</h2>
-            </figcaption>
-        </figure>
+        </div>
 
-    </div>
+        <div class="user d-flex align-items-center">
+            <form id="dados" name="dados" method="post" action="">
 
-    <div class="user d-flex align-items-center">
-        <form id="dados" name="dados" method="post" action="">
+                <div class="row">
 
-            <div class="row">
-
-                <div class="col-md-4 my-3">
-                    <label for="usuario" class="form-label">Usuário</label>
-                    <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Ex: User1234"
-                        minlength="8" maxlength="15" required>
-                </div>
-        </form>
+                    <div class="col-md-4 my-3">
+                        <label for="usuario" class="form-label">Usuário</label>
+                        <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Ex: User1234"
+                            minlength="8" maxlength="15" required>
+                    </div>
+            </form>
+        </div>
     </div>
     </div>
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
 </body>
 

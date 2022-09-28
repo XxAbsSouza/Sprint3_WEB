@@ -182,24 +182,50 @@ h6 {
 /*----------------------------------Galeria--------------------------------------*/
 
 .gallery {
-    min-height: 100vh;
+    min-height: 110vh;
     background-color: var(--color-segundary);
 }
 
 .h2 {
     color: var(--color-light);
-    font-family: var(--font-tittle);
+    font-family: var(--font-tittle-2);
     font-size: 3.5rem;
 }
 
 /*----------------------Especificações----------------------*/
 .specs {
-    
-    background-color: var(--color-black);
-    margin-top: 1rem;
+    min-height: 120vh;
     font-size: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
+.card-img-bottom {
+    max-height: 30rem;
+}
+
+h3 {
+    font-family: var(--font-tittle-2);
+}
+
+.card{
+    color: var(--color-light);
+    max-width: 70rem;
+    background-color: var(--color-black);
+
+}
+
+.c1 {
+    max-height: 70rem;
+}
+
+.c2 {
+    max-height: 50rem;
+}
+
+/*
 .harware-txt {
     width: 100%;
     color: var(--color-light);
@@ -210,7 +236,7 @@ h6 {
     width: 100%;
     color: var(--color-light);
     margin-left: 1rem;
-}
+} */
 
 .robocup {
     width: 100%;
@@ -300,9 +326,20 @@ h6 {
     }
 }
 
+.line {
+    width: 100rem;
+    height: 0.2rem;
+    background-color: var(--color-light-2);
+    margin: 10px auto;
+    border-radius: 5px;
+    transition-delay: 2s;
+    transition: 5s;
+}
+
 .bg-container-1 {
     background-image: linear-gradient(#310000ad, #fb00008a, #fb0000b7, #5b01017a), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
 }
+
 .bg-container-2 {
-    background-image: linear-gradient(#160f29, #0000), url(../images/laura-ockel-UzNVV_u6qkc-unsplash.jpg);
+    background-image: linear-gradient(var(--color-segundary), #160f29b2), url(../images/laura-ockel-UzNVV_u6qkc-unsplash.jpg);
 }
