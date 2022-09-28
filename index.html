@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
 
 </head>
 
@@ -35,15 +38,8 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#galeria" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Galeria
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#fotos">Fotos</a></li>
-                                <li><a class="dropdown-item" href="#videos">Vídeos</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#galeria">Galeria</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#especificacoes" role="button"
@@ -73,7 +69,7 @@
     <main
         class="container-fluid bg-container-1 hero d-flex flex-column align-items-center justify-content-center text-center">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 p-5">
                 <h1 class="text-white">O taldo Destroça</h1>
                 <p class="text-white">Projeto de robótica com o fim de criar um robô a partir do zero, <br>para
                     introduzir aos alunos a robótica educacional e os <br>conceitos de programação por trás da mesma</p>
@@ -83,167 +79,214 @@
         </div>
     </main>
 
-
     <div class="container-fluid padding-zero">
-        <div class="row">
-            <div class="sobre" id="sobre">
-                <p class="sobre-txt">
-                    Sobre:
-
-                    desde que o professor Belizario nos informou a respeito do projeto do robo, foram aparecendo algumas
-                    ideias sobre o mesmo, que até então nem nome tinha, os meses foram passando, fomos projetando,
-                    construindo, evoluindo, arrumando os erros que apareceram no caminho até que finalizamos "o taldo
-                    destroça" agora totalmente funcional, sem bugs, e com uma personalidade própria, com uma feição
-                    amigavel, a não ser pela sua intimidadora arma, uma bola cheia de agulhas preparada para estourar os
-                    balões adversarios, ele funciona basicamente com três motores, dois para movimentação e um para a
-                    arma, controlados pro um arduino. Abaixo você pode encontrar um video dele funcionando
+        <section class="row sobre align-items-center">
+            <div class="sobre-txt col-12 col-sm-12 col-md-7 d-flex flex-column
+                    align-items-center justify-content-center p-5" id="sobre">
+                <p class="py-5 ps-5 mb-5 text-start bg">
+                    O projeto foi <span class="sobre-p">concebido pela FIAP</span> e consiste no <span
+                        class="sobre-p">desenvolvimento e
+                        documentação de um robô</span> para competir com outros
+                    robôs
                 </p>
-                <div class="video d-flex justify-content-center embed-responsive embed-responsive-16by9">
-                    <iframe width="720" height="480" src="https://www.youtube-nocookie.com/embed/fECD3tNE5dM"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                <p class="py-5 pe-5 mb-5 text-end bg2">A fim de integrar conhecimentos e técnicas de todas as
+                    disciplinas
+                    dos alunos do
+                    primeiro ano do curso de Sistemas
+                    de Informação</p>
+                <p class="py-5 ps-5 mb-5 text-start bg">Nosso robô,<span class="sobre-p"> O Taldo Destroça</span>, é
+                    <span class="sobre-p">muito mais</span> que um robô feito para briga!
+                </p>
+                <p class="py-5 pe-5 mb-5 text-end bg2">Ao vê-lo nas arenas poderemos ver que por trás
+                    do resultado final há <span class="sobre-p">meses de estudo</span> em <span class="sobre-p">elétrica
+                        básica e
+                        digital</span> tal como em <span class="sobre-p">programação aplicada</span></p>
+                <h6 class="text-center py-3">Tudo isso inserido dentro da tendência mundial de robótica
+                    educacional!
+                </h6>
+            </div>
+            <div class="col-12 col-sm-12 col-md-5 p-5">
+                <div class="ratio ratio-4x3">
+                    <iframe src="https://www.youtube.com/embed/fECD3tNE5dM" title="YouTube video" allowfullscreen></iframe>
                 </div>
             </div>
-        </div>
-        <div class="gallery row" id="fotos">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+        </section>
+
+        <section class="gallery row  align-items-center" id="galeria">
+            <div class="galeria w-50 h-50 flex-column">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="100">
+                            <img src="./images/fotoangulada.jpeg" class="d-block w-100" alt="Robo angulo">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="100">
+                            <img src="./images/fotofrente.jpeg" class="d-block w-100" alt="Robo frontal">
+
+                        </div>
+                        <div class="carousel-item" data-bs-interval="100">
+                            <img src="./images/fototras.jpeg" class="d-block w-100" alt="Robo traseira">
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="100">
-                        <img src="./images/fotoangulada.jpeg" class="d-block w-100" alt="...">
-
+            </div>
+            <!-- ------- -->
+            <div class="galeria w-50 h-50 flex-column">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Vídeo 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Vídeo 2"></button>
                     </div>
-                    <div class="carousel-item" data-bs-interval="100">
-                        <img src="./images/fotofrente.jpeg" class="d-block w-100" alt="...">
-
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <iframe src="https://www.youtube.com/embed/fECD3tNE5dM" title="YouTube video" allowfullscreen class="d-block w-100"></iframe>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Robô em funcionamento</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="100">
-                        <img src="./images/fototras.jpeg" class="d-block w-100" alt="...">
-
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-
             </div>
-            <div class="specs" id="especificacoes">
+        </section>
 
-                <div class="harware-txt" id="hardware">
-                    <h2>Hardware:</h2>
+        <div class="specs" id="especificacoes">
 
-                    Nosso Robo foi construido em uma base de mdf de 25cmx25cm, paredes triangulares com medidas de
-                    10cm
-                    x
-                    23cm x
-                    25cm. Ele é movido por dois motores dc de 5v/150rpm cada com caixa de redução embutida, o
-                    "cerebro"
-                    do
-                    taldo
-                    destroça é um arduino uno acoplado a ele um shild de motores com capacidade de controlar ate 4
-                    motores,
-                    o
-                    robô é controlado pelo um smartphone via bluetooth atráves de um módulo bluetooth hc 06. Para
-                    alimentar todo este monstrinho são necessarias 6 pilhas AA de 1.5v cada.
-                </div>
-                <div class="arma-txt" id="armas">
-                    <h2>Arma:</h2>
-                    Sua arma é composta por:
-                    um
-                    motor
-                    dc 5v/330rpm o qual possui um palito com uma bola cheia de agulhas na ponta pronto para estourar
-                    os
-                    balões
-                    dos adversários.
-                </div>
+            <div class="harware-txt" id="hardware">
+                <h2>Hardware:</h2>
+
+                Nosso Robo foi construido em uma base de mdf de 25cmx25cm, paredes triangulares com medidas de
+                10cm
+                x
+                23cm x
+                25cm. Ele é movido por dois motores dc de 5v/150rpm cada com caixa de redução embutida, o
+                "cerebro"
+                do
+                taldo
+                destroça é um arduino uno acoplado a ele um shild de motores com capacidade de controlar ate 4
+                motores,
+                o
+                robô é controlado pelo um smartphone via bluetooth atráves de um módulo bluetooth hc 06. Para
+                alimentar todo este monstrinho são necessarias 6 pilhas AA de 1.5v cada.
             </div>
-
-            <div class="robocup d-flex " id="robocup">
-                <img class="robocup-img" src="./images/robocup.jpg" alt="robocup-img">
-                <div class="robocup-txt">
-                    <p>
-                        <h2>Robocup:</h2>
-                        A Robocup é a competição mais antiga da FIAP. Alunos dos 1°s anos de Sistemas de Informação
-                        constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o
-                        adversário carrega. Para isso, todas as máquinas possuem armas em seu corpo. Mas a competição
-                        também exige o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher
-                        sua arma, só assim é considerado o vencedor. <h2>Next:</h2>O NEXT é o Festival de Tecnologia e
-                        Inovação que reuniu, no ano de 2017, mais de dois mil jovens talentos da FIAP apresentando suas
-                        melhores criações: drones, robôs, conteúdos para VR devices, aplicativos mobiles e muito mais. O
-                        evento citado acima foi realizado em 21/10/2017 na Casa das Caldeiras.
-                    </p>
-                </div>
+            <div class="arma-txt" id="armas">
+                <h2>Arma:</h2>
+                Sua arma é composta por:
+                um
+                motor
+                dc 5v/330rpm o qual possui um palito com uma bola cheia de agulhas na ponta pronto para estourar
+                os
+                balões
+                dos adversários.
             </div>
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-                crossorigin="anonymous"></script>
-        </div>
-        <h2 class="text-center">Equipe Destroça</h2>
-        <div class="grupo d-flex flex-row text-center" id="grupo">
-
-            <figure class="caption">
-                <img class="img-gp" src="./images/equipe/yann.jpg" alt="">
-                <figcaption>
-                    <h2>Yann</h2>
-                </figcaption>
-            </figure>
-            <figure class="caption">
-                <img class="img-gp" src="./images/equipe/ana.jpeg" alt="">
-                <figcaption>
-                    <h2>Ana</h2>
-                </figcaption>
-            </figure>
-            <figure class="caption">
-                <img class="img-gp" src="./images/equipe/daniel.jpeg" alt="">
-                <figcaption>
-                    <h2>Daniel</h2>
-                </figcaption>
-            </figure>
-            <figure class="caption">
-                <img class="img-gp" src="./images/equipe/davi.jpeg" alt="">
-                <figcaption>
-                    <h2>Davi</h2>
-                </figcaption>
-            </figure>
-            <figure class="caption">
-                <img class="img-gp" src="./images/equipe/luis.jpeg" alt="">
-                <figcaption>
-                    <h2>Luis</h2>
-                </figcaption>
-            </figure>
-
         </div>
 
-        <div class="user d-flex align-items-center">
+        <div class="robocup d-flex " id="robocup">
+            <img class="robocup-img" src="./images/robocup.jpg" alt="robocup-img">
+            <div class="robocup-txt">
+                <p>
+                <h2>Robocup:</h2>
+                A Robocup é a competição mais antiga da FIAP. Alunos dos 1°s anos de Sistemas de Informação
+                constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o
+                adversário carrega. Para isso, todas as máquinas possuem armas em seu corpo. Mas a competição
+                também exige o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher
+                sua arma, só assim é considerado o vencedor. <h2>Next:</h2>O NEXT é o Festival de Tecnologia e
+                Inovação que reuniu, no ano de 2017, mais de dois mil jovens talentos da FIAP apresentando suas
+                melhores criações: drones, robôs, conteúdos para VR devices, aplicativos mobiles e muito mais. O
+                evento citado acima foi realizado em 21/10/2017 na Casa das Caldeiras.
+                </p>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+    </div>
+    <h2 class="text-center">Equipe Destroça</h2>
+    <div class="grupo d-flex flex-row text-center" id="grupo">
+
+        <figure class="caption">
+            <img class="img-gp" src="./images/equipe/yann.jpg" alt="">
+            <figcaption>
+                <h2>Yann</h2>
+            </figcaption>
+        </figure>
+        <figure class="caption">
+            <img class="img-gp" src="./images/equipe/ana.jpeg" alt="">
+            <figcaption>
+                <h2>Ana</h2>
+            </figcaption>
+        </figure>
+        <figure class="caption">
+            <img class="img-gp" src="./images/equipe/daniel.jpeg" alt="">
+            <figcaption>
+                <h2>Daniel</h2>
+            </figcaption>
+        </figure>
+        <figure class="caption">
+            <img class="img-gp" src="./images/equipe/davi.jpeg" alt="">
+            <figcaption>
+                <h2>Davi</h2>
+            </figcaption>
+        </figure>
+        <figure class="caption">
+            <img class="img-gp" src="./images/equipe/luis.jpeg" alt="">
+            <figcaption>
+                <h2>Luis</h2>
+            </figcaption>
+        </figure>
+
+    </div>
+
+    <div class="user d-flex align-items-center">
         <form id="dados" name="dados" method="post" action="">
 
             <div class="row">
-                
+
                 <div class="col-md-4 my-3">
                     <label for="usuario" class="form-label">Usuário</label>
-                    <input type="text" id="usuario" name="usuario"
-                    class="form-control" placeholder="Ex: User1234"
-                    minlength="8" maxlength="15" required>
+                    <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Ex: User1234"
+                        minlength="8" maxlength="15" required>
                 </div>
-    </form>
-</div>
+        </form>
     </div>
+    </div>
+
     <script src="./js/app.js"></script>
 </body>
 
