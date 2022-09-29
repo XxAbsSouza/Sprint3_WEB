@@ -223,6 +223,8 @@ h6 {
 .robocup-img {
     max-width: 50rem;
     max-height: 30rem;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.353));
 }
 
 .robocup-txt {
@@ -236,7 +238,7 @@ h6 {
 /*--------------------- Grupo -----------------------*/
 
 .grupo {
-    min-height: 90vh;
+    min-height: 100vh;
     background-color: var(--color-segundary);
     background-image: linear-gradient(rgba(0, 0, 0, 0.404), var(--color-segundary), rgba(0, 0, 0, 0.301));
 }
@@ -246,8 +248,7 @@ h6 {
 }
 
 .accordion {
-    min-width: 90vw;
-    max-width: 90vw;
+    max-width: 64.7vw;
     position: relative;
     top: -3rem;
     background-color: transparent;
@@ -268,11 +269,15 @@ h6 {
     max-width: 20rem;
     max-height: 20rem;
     margin: 1rem;
+    border-radius: 0.5rem;
 }
 
-/* .user{
+/*------------------- Form ----------------*/
+
+.form {
+    min-height: 100vh;
     
-} */
+}
 
 /* ------------------- Configurações gerais ---------------------- */
 
