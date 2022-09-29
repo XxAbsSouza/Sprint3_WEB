@@ -182,14 +182,19 @@ h6 {
 /*----------------------------------Galeria--------------------------------------*/
 
 .gallery {
-    min-height: 110vh;
+    min-height: 100vh;
     background-color: var(--color-segundary);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.404), var(--color-segundary), rgba(0, 0, 0, 0.301));
 }
 
 .h2 {
     color: var(--color-light);
     font-family: var(--font-tittle-2);
     font-size: 3.5rem;
+}
+
+.galeria {
+    max-width: 80rem;
 }
 
 /*----------------------Especificações----------------------*/
