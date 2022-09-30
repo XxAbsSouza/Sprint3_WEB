@@ -15,6 +15,16 @@
     display: none;
 } */
 
+::-webkit-scrollbar {
+    width: 0.7rem;
+    background-color: #160f29;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #960101;
+    border-radius: 5rem;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -47,22 +57,14 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--color-light);
+    color: var(--color-primary) !important;
+    transition: 0.8s;
 }
 
 .nav-item a {
     color: var(--color-light) !important;
 }
 
-
-.navbar .dropdown-menu {
-    color: var(--color-light) !important;
-    background-color: #160f294b;
-}
-
-.dropdown-item:hover {
-    background-color: #160f29ad;
-}
 
 .hero {
     min-height: 100vh;
