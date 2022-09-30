@@ -23,6 +23,7 @@ html {
 
 body {
     overflow-x: hidden;
+    max-width: 100vw;
 }
 
 .padding-zero {
@@ -90,7 +91,7 @@ p {
 }
 
 
-.btn {
+.btn{
     font-family: var(--font-p);
     font-size: 1.75rem;
     padding: 0.5rem 4rem;
@@ -252,7 +253,7 @@ h6 {
     position: relative;
     top: -3rem;
     background-color: transparent;
-    
+
 }
 
 
@@ -276,8 +277,50 @@ h6 {
 
 .form {
     min-height: 100vh;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+.form-text {
+    color: var(--color-light-2);
+    font-family: var(--font-p);
+    font-size: 1.6rem;
+}
+
+.form-text-2{
+    margin-top: 0.4rem;
+    font-size: 1rem;
+}
+
+.form-control:focus{
+    background-color: #f0c3c3;
+}
+
+textarea {
+    height: 15rem;
+}
+
+.btn-form {
+    background-color: var(--color-primary);
+    position: relative;
+    padding: 1rem 2rem;
+    width: 10rem;
+    left: calc(100vw - 17rem) ;
+    border: #8f0000 solid 1px;
+    border-radius: 2rem;
+    color: var(--color-light);
+    transition: 2s;
+}
+
+.btn-form:hover {
+    background: var(--color-light-2);
+    border-color: var(--color-primary);
+    color: #000;
+}
+
+
 
 /* ------------------- Configurações gerais ---------------------- */
 
@@ -300,6 +343,10 @@ h2 {
     .hero-icon {
         position: relative;
         top: 6rem !important;
+    }
+
+    .robocup-sec {
+        flex-wrap: wrap !important;
     }
 }
 

@@ -160,7 +160,7 @@
         </section>
 
         <section class="row">
-            <div class="specs bg-container-2" id="especificacoes">
+            <div class="specs bg-container-1" id="especificacoes">
                 <h2 class="h2 text-center m-5 pb-4">Especificações</h2>
                 <p class="text-center text-light">O robô é composto por três principais partes:</p>
                 <div class="cards d-flex align-items-center justify-content-center mb-5 row">
@@ -218,9 +218,11 @@
 
 
         <section class="robocup row" id="robocup">
-            <div class="text-center d-flex align-items-center justify-content-center">
-                <img class="robocup-img m-5" src="./images/robocup.jpg" alt="robocup-img">
-                <div class="robocup-txt">
+            <div class="text-center d-flex align-items-center justify-content-center robocup-sec">
+                <div class="col-12 col-sm-12 col-md-4">
+                    <img class="robocup-img m-5" src="./images/robocup.jpg" alt="robocup-img">
+                </div>
+                <div class="robocup-txt col-12 col-sm-12 col-md-8">
                     <h2>Robocup:</h2>
                     <p>A <span class="sobre-p">Robocup</span> é a <span class="sobre-p">competição mais antiga</span> da
                         FIAP. Alunos dos <span class="sobre-p">1°s anos</span> de Sistemas de Informação
@@ -235,8 +237,8 @@
                     </p>
                 </div>
             </div>
-            <div class="text-center d-flex align-items-center justify-content-center">
-                <div class="robocup-txt">
+            <div class="text-center d-flex align-items-center justify-content-center pe-5 robocup-sec">
+                <div class="robocup-txt col-12 col-sm-12 col-md-8">
                     <h2>Next:</h2>
                     <p>O <span class="sobre-p">NEXT</span> é o Festival de <span class="sobre-p">Tecnologia</span> e
                         <span class="sobre-p">Inovação</span> que reuniu, no ano de 2017, mais de <span
@@ -246,12 +248,14 @@
                         evento citado acima foi realizado em 21/10/2017 na Casa das Caldeiras.
                     </p>
                 </div>
-                <img class="robocup-img m-5" src="./images/next.jpg" alt="robocup-img">
+                <div class="col-12 col-sm-12 col-md-4">
+                    <img class="robocup-img m-5 pe-5" src="./images/next.jpg" alt="robocup-img">
+                </div>
             </div>
         </section>
 
         <section class="row grupo text-center d-flex align-items-center justify-content-center" id="grupo">
-            <h2 class="grupo-tittle">Equipe Destroça</h2>
+            <h2 class="grupo-tittle mt-5">Equipe Destroça</h2>
             <p class="mb-4 text-white">Nossa Equipe é formada por 5 membros, <br>construímos o robô e queremos que essa
                 iniciativa traga bons frutos e os compartilhemos com o mundo!</p>
             <div class="accordion d-flex " id="accordionExample">
@@ -399,40 +403,44 @@
             </div>
         </section>
 
-        <section class="row form bg-container-1" id="contato">
+        <section class="row form bg-container-1 d-flex align-items-center justify-content-center text-center"
+            id="contato">
+            <h2 class="m-5 p-3 text-white">Contate-nos</h2>
             <form>
-                <div class="row">
-                    <div class="col">
-                        <label for="1nome">Nome</label>
+                <div class="p-5 d-flex row text-start form-text">
+                    <div class="col-12 col-sm-11 col-md-6 mb-4">
+                        <label for="1nome" class="mb-1">Nome</label>
                         <input type="text" class="form-control" placeholder="Josenildo" aria-label="First name"
                             id="1nome">
                     </div>
-                    <div class="col">
-                        <label for="2nome">Sobrenome</label>
+                    <div class="col-12 col-sm-11 col-md-6 mb-4">
+                        <label for="2nome" class="mb-1">Sobrenome</label>
                         <input type="text" class="form-control" placeholder="da Silva" aria-label="Last name"
                             id="2nome">
                     </div>
-                    <div class="col-12">
-                        <label for="achou">Por onde nos encontrou?</label>
-                        <input type="text" class="form-control" placeholder="Ex.: Pela Fiap" id="achou">
-                    </div>
-                    <div class="mb-3">
+
+                    <div class="col-12 mb-4">
                         <label for="exampleInputEmail1" class="form-label">Email</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="seu E-mail aqui">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div id="emailHelp" class="form-text-2 text-white">We'll never share your email with anyone
+                            else.</div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <label for="achou" class="mb-1">Por onde nos encontrou?</label>
+                        <input type="text" class="form-control" placeholder="Ex.: Pela Fiap" id="achou">
                     </div>
                     <div class="col-12 mb-3">
                         <label for="mensagem" class="form-label">Mensagem</label>
-                        <textarea name="mensagem" id="mensagem" class="form-control"></textarea>
+                        <textarea name="mensagem" id="mensagem" class="form-control" placeholder="Mensagem"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-form col-12 col-md-1 text-center">Submit</button>
+                </div>
             </form>
+        </section>
     </div>
-    </section>
 
-    </div>
 
 
 
