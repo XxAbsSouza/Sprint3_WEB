@@ -29,7 +29,6 @@ html {
 
 body {
     overflow-x: hidden;
-    max-width: 100vw !important;
 }
 
 .padding-zero {
@@ -42,10 +41,11 @@ body {
 .navbar {
     text-transform: capitalize;
     font-size: 1.2rem;
-    width: 100%;
+    max-width: 100vw;
     font-family: var(--font-p);
     background-color: #07050e44;
     backdrop-filter: blur(2rem);
+    overflow-x: hidden;
 }
 
 .navbar-nav li {
@@ -64,7 +64,7 @@ body {
 
 .hero {
     min-height: 100vh;
-    width: 100%;
+    max-width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -130,6 +130,7 @@ p {
     background-color: var(--color-segundary);
     background-image: linear-gradient(#ff000046, var(--color-segundary), #1400002a);
     min-height: 100vh;
+    max-width: 100vw;
 }
 
 .sobre-txt {
@@ -170,6 +171,7 @@ h6 {
     min-height: 100vh;
     background-color: var(--color-segundary);
     background-image: linear-gradient(rgba(0, 0, 0, 0.404), var(--color-segundary), rgba(0, 0, 0, 0.301));
+    max-width: 100vw;
 }
 
 .h2 {
@@ -189,6 +191,7 @@ h6 {
 
 /*----------------------Especificações----------------------*/
 .specs {
+    max-width: 100vw !important;
     min-height: 100vh;
     font-size: 16px;
     background-size: cover;
@@ -219,6 +222,7 @@ h6 {
 /*----------------Robocup----------------*/
 
 .robocup {
+    max-width: 100vw;
     min-height: 100vh;
     background-color: var(--color-segundary);
     background-image: linear-gradient(#5b01017a, var(--color-segundary), #1400002a);
@@ -243,6 +247,7 @@ h6 {
 
 .grupo {
     min-height: 100vh;
+    max-width: 100vw;
     background-color: var(--color-segundary);
     background-image: linear-gradient(rgba(0, 0, 0, 0.404), var(--color-segundary), rgba(0, 0, 0, 0.301));
 }
@@ -278,6 +283,7 @@ h6 {
 /*------------------- Form ----------------*/
 
 .form {
+    max-width: 100vw;
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -329,6 +335,7 @@ input {
 /*------------------------- Footer ----------------------*/
 
 footer {
+    max-width: 100vw;
     min-height: 20vh;
     background-color: var(--color-segundary);
     background-image: linear-gradient(rgba(0, 0, 0, 0.404), var(--color-segundary), rgba(0, 0, 0, 0.301));
@@ -378,6 +385,12 @@ h2 {
     max-width: 12rem;
 }
 
+@media(max-width: 300px) {
+    .robocup-img {
+        max-width: 23rem !important;
+    }
+}
+
 @media(max-width: 768px) {
     .nav-link {
         text-align: center;
@@ -401,6 +414,19 @@ h2 {
     .robocup-sec-2 {
         flex-wrap: wrap !important;
         top: 0;
+    }
+
+    .robocup-img {
+        max-width: 32rem;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    h3,
+    h2 {
+        font-size: 8vw !important;
     }
 }
 
