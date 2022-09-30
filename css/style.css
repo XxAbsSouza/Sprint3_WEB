@@ -11,10 +11,6 @@
     --font-p: 'Ubuntu Mono', monospace;
 }
 
-/* ::-webkit-scrollbar {
-    display: none;
-} */
-
 ::-webkit-scrollbar {
     width: 0.7rem;
     background-color: #160f29;
