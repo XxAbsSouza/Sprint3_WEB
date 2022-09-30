@@ -23,7 +23,7 @@ html {
 
 body {
     overflow-x: hidden;
-    max-width: 100vw;
+    max-width: 100vw !important;
 }
 
 .padding-zero {
@@ -91,7 +91,7 @@ p {
 }
 
 
-.btn{
+.btn {
     font-family: var(--font-p);
     font-size: 1.75rem;
     padding: 0.5rem 4rem;
@@ -184,6 +184,11 @@ h6 {
     max-width: 80rem;
 }
 
+.video {
+    max-width: 80rem;
+    max-height: 50rem;
+}
+
 /*----------------------Especificações----------------------*/
 .specs {
     min-height: 100vh;
@@ -250,10 +255,9 @@ h6 {
 
 .accordion {
     max-width: 64.7vw;
+    background-color: transparent;
     position: relative;
     top: -3rem;
-    background-color: transparent;
-
 }
 
 
@@ -289,12 +293,12 @@ h6 {
     font-size: 1.6rem;
 }
 
-.form-text-2{
+.form-text-2 {
     margin-top: 0.4rem;
     font-size: 1rem;
 }
 
-.form-control:focus{
+.form-control:focus {
     background-color: #f0c3c3;
 }
 
@@ -307,7 +311,7 @@ textarea {
     position: relative;
     padding: 1rem 2rem;
     width: 10rem;
-    left: calc(100vw - 17rem) ;
+    left: calc(100vw - 17rem);
     border: #8f0000 solid 1px;
     border-radius: 2rem;
     color: var(--color-light);
@@ -320,6 +324,48 @@ textarea {
     color: #000;
 }
 
+input {
+    height: 3.5rem;
+}
+
+/*------------------------- Footer ----------------------*/
+
+footer {
+    min-height: 20vh;
+    background-color: var(--color-segundary);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), var(--color-segundary), rgba(0, 0, 0, 0.301));
+}
+
+.footer {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-light-2);
+    font-size: 1.5rem;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: var(--color-light-2);
+}
+
+a:hover {
+    color: #f0c3c3;
+}
+
+.footer-item {
+    list-style: none;
+    transition: 1s;
+}
+
+.footer-item:hover {
+    transform: scale(1.3);
+    padding: 1rem;
+    color: #f0c3c3;
+}
 
 
 /* ------------------- Configurações gerais ---------------------- */
@@ -328,6 +374,10 @@ h3,
 h2 {
     font-family: var(--font-tittle-2);
     font-size: 2.3rem;
+}
+
+.logo {
+    max-width: 12rem;
 }
 
 @media(max-width: 768px) {
@@ -347,6 +397,12 @@ h2 {
 
     .robocup-sec {
         flex-wrap: wrap !important;
+        padding-right: 0 !important;
+    }
+
+    .robocup-sec-2 {
+        flex-wrap: wrap !important;
+        top: 0;
     }
 }
 
@@ -387,10 +443,6 @@ h2 {
 
 .bg-container-1 {
     background-image: linear-gradient(#310000ad, #fb00008a, #fb0000b7, #5b01017a), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
-}
-
-.bg-container-2 {
-    background-image: linear-gradient(var(--color-segundary), #5b01017a), url(../images/vishnu-mohanan-pfR18JNEMv8-unsplash.jpg);
 }
 
 .btn-outline-info {
