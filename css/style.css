@@ -234,6 +234,18 @@ h6 {
     border-radius: 0.5rem;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.353));
 }
+.robocup-img-t {
+    max-width: 70rem;
+    max-height: 50rem;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.353));
+}
+.robocup-img-g {
+    max-width: 55rem;
+    max-height: 40rem;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.353));
+}
 
 .robocup-txt {
     margin: 1rem;
